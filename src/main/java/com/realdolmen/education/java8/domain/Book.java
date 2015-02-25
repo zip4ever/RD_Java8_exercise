@@ -50,6 +50,6 @@ public class Book {
     }
 
     public String toString() {
-        return "Author: " + author + "; Title: " + title + "; No. of pages: " + numberOfPages + "; Year" + yearOfPublication;
+        return "Author: " + author + "; Title: " + title + "; No. of pages: " + numberOfPages + "; Year: " + yearOfPublication;
     }
 }

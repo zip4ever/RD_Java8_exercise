@@ -48,4 +48,8 @@ public class Book {
     public void setNumberOfPages(int numberOfPages) {
         this.numberOfPages = numberOfPages;
     }
+
+    public String toString() {
+        return "Author: " + author + "; Title: " + title + "; No. of pages: " + numberOfPages + "; Year" + yearOfPublication;
+    }
 }

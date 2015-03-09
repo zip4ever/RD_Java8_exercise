@@ -50,7 +50,7 @@ public class BookCollection {
         //todo Implement method
     }
 
-    public void printBooksByFirstLetterAuthorName() {
+    public void printBooksByAuthorName() {
         //todo Implement method
     }
 }

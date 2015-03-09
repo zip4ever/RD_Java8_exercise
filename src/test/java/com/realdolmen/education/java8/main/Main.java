@@ -1,7 +1,6 @@
 package com.realdolmen.education.java8.main;
 
 import com.realdolmen.education.java8.domain.BookCollection;
-import com.realdolmen.education.java8.repository.BookRepository;
 import com.realdolmen.education.java8.repository.BookRepositoryDummyImplementation;
 
 /**
@@ -29,7 +28,7 @@ public class Main {
         bookCollection.printBooksWrittenInALeapYear();
 
         // Create an overview of the Books, so that you can easily find them by the first letter of the author’s family name(thus you need something like List<Char, List<Book>>)
-        bookCollection.printBooksByFirstLetterAuthorName();
+        bookCollection.printBooksByAuthorName();
 
     }
 
